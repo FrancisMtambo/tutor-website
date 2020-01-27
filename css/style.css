@@ -28,7 +28,6 @@
 
 .nav-list li  {
     display: inline;
-    float: inherit;
     padding-right:15px
 }
 
@@ -50,7 +49,7 @@ a:hover  {
 .intro-container  {
     display: flex;
     flex-direction: row;
-    background-image: url(/images/maths-img.PNG);
+    background-image: url(/images/maths-img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -103,10 +102,9 @@ h2  {
 }
 .photo  {
     float: left;
-    width: 220px;
-    margin-left: 80px;
-    margin-right: 80px;
-    border-radius: 50%;
+    height:100%;
+    top: 10px;
+   
 }
 
 .describe-Francis {
@@ -176,7 +174,7 @@ a.button1  {
 }
 
 a.button1:hover  {
-    color:#000000;
+    color: #000000;
     background-color:#FFFFFF;
 }
 
@@ -185,29 +183,7 @@ a.button1:hover  {
     padding:0;
     
 }
-/*
-#other-services  {
-    display:flex;
-    background-color: rgb(112, 204, 169);
-    padding:80px;
-    
-}
 
-.other-services  {
-    width: 60vw;
- 
-   
-}
-
-.other-pic  {
-    width: 40vw;
-    height: 50vh;
-    float: right;
- 
-   
-    
-}
-*/
 
 .myButton {
     box-shadow:inset 0px 1px 5px 0px #91b8b3;
